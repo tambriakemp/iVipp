@@ -78,6 +78,9 @@ iframe {
 img {
 	max-width: 100%;
 }
+li {
+    list-style: none;
+}
 .spacing10 {
 	width: 100%;
 	height: 10px;
@@ -308,6 +311,18 @@ blockquote::before{
 	transform: scale(4);
 	-ms-transform: scale(4);
     -webkit-transform: scale(4);
+}
+
+.mce-PHONE-top {
+    margin-top: 9px;
+}
+
+.mailchimp {
+    display: flex;
+    padding: 30px;
+}
+.mailchimp1 {
+    padding: 40px;
 }
 /* --------------------------------------------PRELOADER SECTION--------------------------------------------- */
 #preloader {
@@ -564,7 +579,7 @@ blockquote::before{
     margin-left: 40px;
     float: right;
 }
-.header-icon li {
+.header-icon li 
     display: inline-block;
     vertical-align: middle;
 }
@@ -822,7 +837,7 @@ background-position: 50% 50%;
     color: #fff;
     font-size: 80px;
     margin: 0 0 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .slider-text {
     color: #fff;
@@ -1092,7 +1107,7 @@ background-position: 50% 50%;
     position: relative;
     background: #000;
     z-index: 1;
-    opacity: 0;
+    opacity: 0.5;
 	-webkit-transition: all 0.5s cubic-bezier(0.5, 0, 0.4, 1);
 	-moz-transition: all 0.5s cubic-bezier(0.5, 0, 0.4, 1);
 	-ms-transition: all 0.5s cubic-bezier(0.5, 0, 0.4, 1);
@@ -1176,19 +1191,19 @@ background-position: 50% 50%;
 	opacity:0;
 }
 .dbox-relative p {
-    color: #09f149;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     line-height: 1.2;
  	margin-top: 50px;
     position: relative;
-	-webkit-transition:all 0.2s ease-in 0s;
+	/* -webkit-transition:all 0.2s ease-in 0s;
     transition: all 0.2s ease-in 0s;
 	transition-delay:0.4s;
-	-webkit-transition-delay:0.4s;
+	-webkit-transition-delay:0.4s; */
 	opacity:0;
 }
-.port-inner:hover .dbox-relative h3{margin-top:0;opacity:1;}
-.port-inner:hover .dbox-relative p{margin-top:0;opacity:1;}
+.dbox-relative h3{margin-top:0;opacity:1;}
+.dbox-relative p{margin-top:0;opacity:1;}
 .port-dbox {
     position: absolute;
     bottom: 0;
@@ -1208,6 +1223,7 @@ background-position: 50% 50%;
     text-align: center;
     width: 100%;
     position: relative;
+    padding: 10px;
 }
 .other-portfolio {
     text-align: center;
@@ -1535,12 +1551,12 @@ input:focus, textarea:focus {
     display: inline-block;
 }
 .footer-icon li a {
-    background: rgba(255,255,255,0.1);
+    /* background: rgba(255,255,255,0.1);
     width: 40px;
-    height: 40px;
+    height: 40px; */
     display: block;
     line-height: 40px;
-    border-radius: 100px;
+    /* border-radius: 100px; */
 }
 .footer-icon li a:hover{
 	background: #09f149;
