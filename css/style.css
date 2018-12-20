@@ -320,6 +320,8 @@ blockquote::before{
 .mailchimp {
     display: flex;
     padding: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .mailchimp1 {
     padding: 40px;
@@ -846,7 +848,6 @@ background-position: 50% 50%;
 
 .top-slider {
     font-family: roboto;
-    text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     letter-spacing: 10px;
